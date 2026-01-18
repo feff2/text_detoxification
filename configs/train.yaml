@@ -1,0 +1,9 @@
+defaults:
+  - model
+  - data
+  - training
+  - mlflow
+
+# Main training configuration
+seed: 42
+

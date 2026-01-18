@@ -1,0 +1,8 @@
+stages:
+  download_data:
+    cmd: python -c "from text_detoxification.data_loader import download_data; download_data('data/custom_dataset.tsv')"
+    deps:
+      - text_detoxification/data_loader.py
+    outs:
+      - data/custom_dataset.tsv
+

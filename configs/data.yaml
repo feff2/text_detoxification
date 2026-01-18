@@ -1,0 +1,23 @@
+# Data configuration
+dataset_name: ${oc.env:DATASET_NAME}
+languages:
+  - en
+  - ru
+  - uk
+  - de
+  - es
+  - am
+  - zh
+  - ar
+  - hi
+
+# Custom data path (optional, set to null if not using)
+custom_data_path: null
+
+# Column names
+input_column: "tat_toxic"
+output_column: "tat_detox1"
+
+# Dataset split
+test_size: 0.1
+
