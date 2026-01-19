@@ -334,7 +334,7 @@ MLflow сервер должен быть запущен на `127.0.0.1:8080` (
 
 ## Inference Server
 
-### MLflow Serving (до 5 баллов)
+### MLflow Serving
 
 Для использования MLflow Serving:
 
@@ -350,7 +350,7 @@ curl -X POST http://127.0.0.1:5000/invocations \
   -d '{"inputs": ["toxic text here"]}'
 ```
 
-### Triton Inference Server (до 10 баллов)
+### Triton Inference Server
 
 Для Triton Inference Server используется PyTriton с TensorRT моделью:
 
